@@ -1,0 +1,137 @@
+button {
+  width: 50px;
+  height: 30px;
+  cursor: pointer;
+  background-color: rgb(173, 188, 230);
+  border-width: 1px;
+  border-color: rgb(220, 220, 220);
+}
+.today-button, .month-button, .week-button {
+  width: 100px;
+}
+/*containers*/
+.h-screen {
+  height: 100vh;
+}
+.flex {
+  display: flex;
+}
+.flex-col {
+  flex-direction: column;
+}
+.flex-1 {
+  flex: 1 1 0%;
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+.p-left-right-1 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+/**/
+.text-center {
+  text-align: center;
+}
+.items-center {
+  align-items: center;
+}
+.bold {
+  font-weight: bold;
+}
+/*CalendarHeader*/
+.bg-light-blue {
+  background-color: rgb(173, 216, 230);
+}
+/*MothView*/
+.grid {
+  display: grid;
+}
+.grid-cols-7 {
+  grid-template-columns: repeat(7,minmax(0,1fr));
+}
+.grid-rows-5 {
+  grid-template-rows: repeat(5,minmax(0,1fr));
+}
+.border {
+  border: 0 solid;
+  border-width: 1px;
+  border-color: rgb(191, 191, 191);
+}
+/*WeekView*/
+.grid-rows-24 {
+  grid-template-rows: repeat(24,minmax(0,2fr));
+}
+.text-right {
+  text-align: right;
+}
+.border-bottom {
+  border-bottom: solid;
+  border-width: 1px;
+  border-color: rgb(191, 191, 191);
+}
+/*CurrentDay*/
+.text-white {
+  color: rgba(255,255,255);
+}
+.bg-blue {
+  background-color: rgb(101, 150, 255);
+}
+.rounded-full {
+  border-radius: 9999px;
+}
+.w-1-25rem {
+  width: 1.25rem;
+}
+/*Event*/
+.fixed {
+  position: fixed;
+}
+.bg-white {
+  background-color: rgb(240, 240, 240);
+}
+.justify-center {
+  justify-content: center;
+}
+.w-full {
+  width: 100%;
+}
+.delete-button, .close-button {
+  align-items: flex-end;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.w-1\/4 {
+  width: 25%;
+}
+.row-gap-10 {
+  row-gap: 10px;
+}
+.col-gap-10 {
+  column-gap: 10px;
+}
+.bg-gray {
+  background-color: rgb(195, 195, 195);
+}
+/*Labels*/
+.w-6 {
+  width: 1.5rem;
+}
+.block {
+  display: block;
+}
+.bg-Not-completed {
+  background-color: rgb(173, 188, 230);
+  color: black;
+  border-radius: 10px;
+}
+.bg-Completed {
+  background-color: rgb(173, 216, 230);
+  color: black;
+  border-radius: 10px;
+}
+/*Sidebar*/
+.p-10 {
+  padding: 10px;
+}
